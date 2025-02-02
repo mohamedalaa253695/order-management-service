@@ -61,6 +61,6 @@ PASSPORT_PASSWORD_GRANT_CLIENT_SECRET=YOUR_CLIENT_SECRET
 1. **Create a new class in app\Strategies\Gateways folder**
 2. **Add the new gateway to app\Strategies\Gateways\PaymentGatewayStrategy gateways array**
 3. **Add the new gateway to payment method enum column in the payments table**
-4. **Migrate the new schema php artisan migrate **
+4. **Migrate the new schema php artisan migrate**
 5. **Edit app/Http/Requests/Api/V1/Payment/CreatePaymentRequest class to add new payment method**
 6. **Add the new gateway in App\Services\PaymentGateway\PaymentGatewayFactory payment_method**
